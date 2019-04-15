@@ -3,7 +3,7 @@
 alf = input('В каком алфавите будем искать букву(Ru/En)? ').lower()
 number = int(input('Введите номер буквы: '))
 
-if alf == 'rus':
+if alf == 'ru':
     print(f'Под номером {number} в русском алфавите находится буква {chr(number + ord("А") - 1)}')
-elif alf == 'eng':
+elif alf == 'en':
     print(f'Под номером {number} в английском алфавите находится буква {chr(number + ord("A") - 1)}')
